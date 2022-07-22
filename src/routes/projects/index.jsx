@@ -119,7 +119,7 @@ export default function Projects() {
         >
           <CardProject>
             <img src={Portifolio} alt="Portifolio"></img>
-            <h2>Finance controler</h2>
+            <h2>Portifolio</h2>
             <p>
               This is my portfolio. I used React, React-router-dom, React-icons,
               Styled-components, and Framer-motion to build this website. You
