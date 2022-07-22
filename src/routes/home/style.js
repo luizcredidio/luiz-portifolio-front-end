@@ -30,9 +30,10 @@ export const AboutMeDiv = styled.div`
   padding: 10px;
   width: 80%;
   max-width: 500px;
-  height: 250px;
+  min-height: 250px;
   text-align: center;
   display: flex;
+  gap: 10px;
   flex-direction: column;
   justify-content: center;
 `;

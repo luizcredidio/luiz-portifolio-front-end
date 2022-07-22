@@ -1,4 +1,4 @@
-import { HeaderDiv, LinksDiv, NameDiv, StyledLink } from "./style";
+import { StyledLinkHome, HeaderDiv, LinksDiv, NameDiv, StyledLink } from "./style";
 import { motion } from "framer-motion";
 import { useHistory } from "react-router-dom";
 
@@ -14,6 +14,7 @@ export default function Header() {
           transition={{ duration: 1.5 }}
         >
           <p>LC</p>
+          <StyledLinkHome to="/">Homepage</StyledLinkHome>
         </motion.div>
       </NameDiv>
       <motion.div

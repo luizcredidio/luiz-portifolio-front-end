@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 export const HeaderDiv = styled.div`
   width: 100%;
+  min-width: 340px;
   height: 100px;
   background-color: #5c0099;
   /* background-color:#000000; */
@@ -42,8 +43,20 @@ export const StyledLink = styled(Link)`
   font-size: 15px;
   color: #d7e3ff;
   text-decoration: none;
-  :hover{
+  :hover {
     font-size: 20px;
+    color: #ffd500;
+  }
+`;
+
+export const StyledLinkHome = styled(Link)`
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  color: #d7e3ff;
+  text-decoration: none;
+  :hover {
+    font-size: 18px;
     color: #ffd500;
   }
 `;

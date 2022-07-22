@@ -3,6 +3,10 @@ import { Main } from "../../components/mainDiv/style";
 import ProfilePic from "../../imgs/ProfilePic.png";
 import { AboutMeDiv, AboutMeTitle, ProfileImg } from "./style";
 import { motion } from "framer-motion";
+import { RiCellphoneFill } from "react-icons/ri";
+import { MdEmail } from "react-icons/md";
+import { BsLinkedin } from "react-icons/bs";
+import { InfoBox } from "../contactMe/style";
 
 export default function Home() {
   return (
@@ -48,6 +52,12 @@ export default function Home() {
               I'm currently working as a freelance developer and also learning
               and developing backend skills.
             </p>
+          
+            <InfoBox>
+              <MdEmail />
+              <h2>Email:</h2>
+              <p>luizmarinhocredidio@gmail.com</p>
+            </InfoBox>
           </AboutMeDiv>
         </motion.div>
       </Main>

@@ -6,7 +6,7 @@ border: #ffd500 solid 5px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
-  padding: 10px;
+  padding: 11px;
   width: 80%;
   max-width: 500px;
   height: 250px;

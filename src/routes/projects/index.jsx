@@ -3,6 +3,7 @@ import Nukenzie from "../../imgs/Nukenzie.png";
 import KenzieBurguers from "../../imgs/KenzieBurguers.png";
 import KenzieHub from "../../imgs/KenzieHub.png";
 import Portifolio from "../../imgs/Portifolio.png";
+import KenzieFood from "../../imgs/KenzieFood.png";
 import { motion } from "framer-motion";
 import { CardProject, ProjectsContainer } from "./style";
 import Button from "../../components/button";
@@ -132,6 +133,40 @@ export default function Projects() {
               title={"GIT HUB"}
             >
               Git Hub
+            </Button>
+          </CardProject>
+        </motion.div>
+
+        <motion.div
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          initial={{ opacity: 0 }}
+          transition={{ duration: 4.5 }}
+        >
+          <CardProject>
+            <img src={KenzieFood} alt="KenzieFood"></img>
+            <h2>Ecommerce - Restaurant</h2>
+            <p>
+              This is another ecommerce. My team and I made this with Pure
+              JavaScript, HTML, and CSS. We applied the Mobile First concept.
+              You can check the code and the website by clicking on the buttons
+              below.
+            </p>
+            <Button
+              handleClick={
+                "https://github.com/Kenzie-Academy-Brasil-Developers/api-kenziefood-m2-luizcredidio"
+              }
+              title={"GIT HUB"}
+            >
+              Git Hub
+            </Button>
+            <Button
+              handleClick={
+                "https://kenzie-academy-brasil-developers.github.io/api-kenziefood-m2-luizcredidio/"
+              }
+              title={"WEBSITE"}
+            >
+              Go to Website
             </Button>
           </CardProject>
         </motion.div>
