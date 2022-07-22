@@ -38,15 +38,15 @@ export default function Home() {
           <AboutMeDiv>
             <p>
               I graduated from Kenzie Academy Bootcamp with one of the best
-              grades of my class, I had a GPA of 4.0 and during the time that I
-              was studing I was offered to work as a teaching assistant at
-              Kenzie Academy. This Bootcamp had the porpouse to prepare us to
+              grades in my class. I had a GPA of 4.0 and during the time that I
+              was studying, I was offered to work as a teaching assistant at
+              Kenzie Academy. This bootcamp had the purpose of preparing us to
               work, so during 8 months we had weekly projects, individual and in
-              groups, we worked in an agile enviroment with daily, sprints etc.
+              groups. We worked in an agile environment with daily, sprints etc.
             </p>
             <p>
               I'm currently working as a freelance developer and also learning
-              and developing backend skils.
+              and developing backend skills.
             </p>
           </AboutMeDiv>
         </motion.div>
