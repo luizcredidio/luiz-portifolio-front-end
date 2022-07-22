@@ -65,7 +65,7 @@ export default function Projects() {
             <img src={Portifolio} alt='Portifolio'></img>
           <h2>Finance controler</h2>
           <p>This is my Portifolio, I used React, React-router-dom, React-icons, Styled-components and Framer-motion to build this website. You can check the code clicking on the button below</p>
-          <Button handleClick={'https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-nu-kenzie-luizcredidio'} title={'GIT HUB'}>Git Hub</Button>
+          <Button handleClick={'https://github.com/luizcredidio/luiz-portifolio-front-end'} title={'GIT HUB'}>Git Hub</Button>
         </CardProject>
         </motion.div>
 
